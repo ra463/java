@@ -1,0 +1,78 @@
+<data>
+	<row>
+		<loan_amount>2000500</loan_amount>
+		<rate>9.5</rate>
+		<term>6</term>
+		<fees>10500</fees>
+		<emi_amount>50000.00</emi_amount>
+
+		<lamount_rate>9.7</lamount_rate>
+		<lamount_term>7</lamount_term>
+		<lamount_fees>11500</lamount_fees>
+
+		<ltenure_amount>2500000</ltenure_amount>
+		<ltenure_emi>53456.43</ltenure_emi>
+		<ltenure_rate>9.63</ltenure_rate>
+		<ltenure_fees>11300</ltenure_fees>
+
+		<car_amount>1500000</car_amount>
+		<car_rate>9.5</car_rate>
+		<car_term>1</car_term>
+
+		<home_price>6000000</home_price>
+		<home_downpayment>22</home_downpayment>
+		<home_insurance_amount>0</home_insurance_amount>
+		<home_interest>8</home_interest>
+		<home_term>18</home_term>
+		<home_fees>0.47</home_fees>
+
+
+		<fn_03_amount>1500000</fn_03_amount>
+		<fn_03_rate>10.23</fn_03_rate>
+		<fn_03_term>6</fn_03_term>
+		<fn_03_fees>10500</fn_03_fees>
+
+		<fn_05_emi>22000</fn_05_emi>
+		<fn_05_rate>9.76</fn_05_rate>
+		<fn_05_term>7</fn_05_term>
+		<fn_05_fees>10300</fn_05_fees>
+
+		<fn_07_amount>1700000</fn_07_amount>
+		<fn_07_emi>27357.56</fn_07_emi>
+		<fn_07_rate>10.45</fn_07_rate>
+		<fn_07_fees>11300</fn_07_fees>
+
+		<fl_01_amount>1900000</fl_01_amount>
+		<fl_01_rate>9.23</fl_01_rate>
+		<fl_01_term>8</fl_01_term>
+		<fl_01_fees>8500</fl_01_fees>
+
+		<fl_02_amount>ababc@</fl_02_amount>
+		<fl_02_rate>frdge</fl_02_rate>
+		<fl_02_term>fdg</fl_02_term>
+		<fl_02_fees>rfvd</fl_02_fees>
+
+		<fl_03_amount>-1700000</fl_03_amount>
+		<fl_03_rate>-10.34</fl_03_rate>
+		<fl_03_term>-6</fl_03_term>
+		<fl_03_fees>-11674</fl_03_fees>
+
+		<fl_05_rate>9.5</fl_05_rate>
+
+		<fl_07_amount>1500000</fl_07_amount>
+		<fl_07_rate>9.5</fl_07_rate>
+		<fl_07_term>8</fl_07_term>
+		<fl_07_fees>11356</fl_07_fees>
+
+		<fn_02_amount>2100000</fn_02_amount>
+		<fn_02_rate>8.85</fn_02_rate>
+		<fn_02_term>9</fn_02_term>
+
+		<fn_01_price>6000000</fn_01_price>
+		<fn_01_down>22</fn_01_down>
+		<fn_01_insurance>0</fn_01_insurance>
+		<fn_01_interest>8.25</fn_01_interest>
+		<fn_01_term>18</fn_01_term>
+		<fn_01_fees>0.47</fn_01_fees>
+	</row>
+</data>

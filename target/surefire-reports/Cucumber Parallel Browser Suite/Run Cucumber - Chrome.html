@@ -1,0 +1,150 @@
+<html>
+<head>
+<title>TestNG:  Run Cucumber - Chrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Run Cucumber - Chrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 28 11:58:27 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>219 seconds (219105 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.emi.runners.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.emi.runners.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Extract year-wise amortization data and export to Excel", "Home Loan EMI calculator"</td>
+<td></td>
+<td>13</td>
+<td>com.emi.runners.CucumberTestRunner@27a0a5a2</td></tr>
+<tr>
+<td title='com.emi.runners.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.emi.runners.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC-FL-07 Validate that EMI result updates dynamically on input change", "EMI, Loan Amount, and Loan Tenure Calculator Validations"</td>
+<td></td>
+<td>15</td>
+<td>com.emi.runners.CucumberTestRunner@27a0a5a2</td></tr>
+<tr>
+<td title='com.emi.runners.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.emi.runners.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC-FN-06 Change Loan Tenure from years to months and verify scale adjustment", "EMI, Loan Amount, and Loan Tenure Calculator Validations"</td>
+<td></td>
+<td>12</td>
+<td>com.emi.runners.CucumberTestRunner@27a0a5a2</td></tr>
+<tr>
+<td title='com.emi.runners.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.emi.runners.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC-FL-05 Validate that decimal values are accepted in the Interest Rate field", "EMI, Loan Amount, and Loan Tenure Calculator Validations"</td>
+<td></td>
+<td>12</td>
+<td>com.emi.runners.CucumberTestRunner@27a0a5a2</td></tr>
+<tr>
+<td title='com.emi.runners.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.emi.runners.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC-FL-04 Validate that all input fields reset when left blank", "EMI, Loan Amount, and Loan Tenure Calculator Validations"</td>
+<td></td>
+<td>14</td>
+<td>com.emi.runners.CucumberTestRunner@27a0a5a2</td></tr>
+<tr>
+<td title='com.emi.runners.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.emi.runners.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC-FL-03 Validate that all input fields reset on negative input", "EMI, Loan Amount, and Loan Tenure Calculator Validations"</td>
+<td></td>
+<td>13</td>
+<td>com.emi.runners.CucumberTestRunner@27a0a5a2</td></tr>
+<tr>
+<td title='com.emi.runners.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.emi.runners.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC-FN-05 Navigate to Loan Amount Calculator tab and verify UI elements", "EMI, Loan Amount, and Loan Tenure Calculator Validations"</td>
+<td></td>
+<td>18</td>
+<td>com.emi.runners.CucumberTestRunner@27a0a5a2</td></tr>
+<tr>
+<td title='com.emi.runners.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.emi.runners.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC-FL-02 Validate that all input fields reset on non-numeric input", "EMI, Loan Amount, and Loan Tenure Calculator Validations"</td>
+<td></td>
+<td>13</td>
+<td>com.emi.runners.CucumberTestRunner@27a0a5a2</td></tr>
+<tr>
+<td title='com.emi.runners.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.emi.runners.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC-FL-06 Validate that Loan Tenure supports both year and month formats", "EMI, Loan Amount, and Loan Tenure Calculator Validations"</td>
+<td></td>
+<td>13</td>
+<td>com.emi.runners.CucumberTestRunner@27a0a5a2</td></tr>
+<tr>
+<td title='com.emi.runners.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.emi.runners.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC-FN-03 Navigate to EMI Calculator tab and verify UI elements", "EMI, Loan Amount, and Loan Tenure Calculator Validations"</td>
+<td></td>
+<td>21</td>
+<td>com.emi.runners.CucumberTestRunner@27a0a5a2</td></tr>
+<tr>
+<td title='com.emi.runners.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.emi.runners.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Calculate Car EMI for 1 year loan and verify first month breakdown", "Car EMI calculation"</td>
+<td></td>
+<td>21</td>
+<td>com.emi.runners.CucumberTestRunner@27a0a5a2</td></tr>
+<tr>
+<td title='com.emi.runners.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.emi.runners.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC-FL-01 Validate EMI text boxes with valid inputs", "EMI, Loan Amount, and Loan Tenure Calculator Validations"</td>
+<td></td>
+<td>16</td>
+<td>com.emi.runners.CucumberTestRunner@27a0a5a2</td></tr>
+<tr>
+<td title='com.emi.runners.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.emi.runners.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC-FN-07 Navigate to Loan Tenure Calculator tab and verify UI elements", "EMI, Loan Amount, and Loan Tenure Calculator Validations"</td>
+<td></td>
+<td>17</td>
+<td>com.emi.runners.CucumberTestRunner@27a0a5a2</td></tr>
+<tr>
+<td title='com.emi.runners.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.emi.runners.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TC-FN-04 Change Loan Tenure from years to months and verify scale adjustment", "EMI, Loan Amount, and Loan Tenure Calculator Validations"</td>
+<td></td>
+<td>12</td>
+<td>com.emi.runners.CucumberTestRunner@27a0a5a2</td></tr>
+</table><p>
+</body>
+</html>

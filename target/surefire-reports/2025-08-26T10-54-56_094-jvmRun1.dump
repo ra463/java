@@ -1,0 +1,15 @@
+# Created at 2025-08-26T10:55:02.239
+java.lang.ClassCastException: class com.emi.runners.CucumberRerunTestRunner cannot be cast to class org.testng.ITestNGListener (com.emi.runners.CucumberRerunTestRunner and org.testng.ITestNGListener are in unnamed module of loader 'app')
+	at org.testng.TestNG.addListeners(TestNG.java:1013)
+	at org.testng.TestNG.initializeConfiguration(TestNG.java:970)
+	at org.testng.TestNG.initializeEverything(TestNG.java:1060)
+	at org.testng.TestNG.run(TestNG.java:1071)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+

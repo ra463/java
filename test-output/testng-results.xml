@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-25T15:56:23 IST" name="Default suite" finished-at="2025-08-25T15:56:36 IST" duration-ms="12951">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.emi.runners.CucumberTestRunner@18ca3c62]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-08-25T15:56:23 IST" name="Default test" finished-at="2025-08-25T15:56:36 IST" duration-ms="12951">
+      <class name="com.emi.runners.CucumberTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.emi.runners.CucumberTestRunner@18ca3c62]" started-at="2025-08-25T15:56:23 IST" name="setUpClass" finished-at="2025-08-25T15:56:24 IST" duration-ms="258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5bb8e6fc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.emi.runners.CucumberTestRunner@18ca3c62]" started-at="2025-08-25T15:56:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-25T15:56:36 IST" duration-ms="12618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Extract year-wise amortization data and export to Excel"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Loan EMI calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.emi.runners.CucumberTestRunner@18ca3c62]" started-at="2025-08-25T15:56:36 IST" name="tearDownClass" finished-at="2025-08-25T15:56:36 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.emi.runners.CucumberTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Cucumber Parallel Browser Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Cucumber_Parallel_Browser_Suite" class="navigator-link ">
+                    <span>C:\Users\2421305\eclipse-workspace\Emi\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Cucumber_Parallel_Browser_Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Cucumber_Parallel_Browser_Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Cucumber_Parallel_Browser_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Cucumber_Parallel_Browser_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Cucumber_Parallel_Browser_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Cucumber_Parallel_Browser_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" class="hide-methods passed suite-Cucumber_Parallel_Browser_Suite"> (hide)</a> <!-- hide-methods passed suite-Cucumber_Parallel_Browser_Suite -->
+                      <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" class="show-methods passed suite-Cucumber_Parallel_Browser_Suite"> (show)</a> <!-- show-methods passed suite-Cucumber_Parallel_Browser_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Cucumber_Parallel_Browser_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FL-02 Validate that all input fields reset on non-numeric input&quot;, &quot;EMI, Loan Amount, and Loan Te...)">runScenario("TC-FL-02 Validate that all input fields reset on non-numeric input", "EMI, Loan Amount, and Loan Te...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FL-05 Validate that decimal values are accepted in the Interest Rate field&quot;, &quot;EMI, Loan Amount, ...)">runScenario("TC-FL-05 Validate that decimal values are accepted in the Interest Rate field", "EMI, Loan Amount, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Calculate Car EMI for 1 year loan and verify first month breakdown&quot;, &quot;Car EMI calculation&quot;)">runScenario("Calculate Car EMI for 1 year loan and verify first month breakdown", "Car EMI calculation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FL-03 Validate that all input fields reset on negative input&quot;, &quot;EMI, Loan Amount, and Loan Tenur...)">runScenario("TC-FL-03 Validate that all input fields reset on negative input", "EMI, Loan Amount, and Loan Tenur...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FN-05 Navigate to Loan Amount Calculator tab and verify UI elements&quot;, &quot;EMI, Loan Amount, and Loa...)">runScenario("TC-FN-05 Navigate to Loan Amount Calculator tab and verify UI elements", "EMI, Loan Amount, and Loa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FN-03 Navigate to EMI Calculator tab and verify UI elements&quot;, &quot;EMI, Loan Amount, and Loan Tenure...)">runScenario("TC-FN-03 Navigate to EMI Calculator tab and verify UI elements", "EMI, Loan Amount, and Loan Tenure...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Extract year-wise amortization data and export to Excel&quot;, &quot;Home Loan EMI calculator&quot;)">runScenario("Extract year-wise amortization data and export to Excel", "Home Loan EMI calculator")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FN-06 Change Loan Tenure from years to months and verify scale adjustment&quot;, &quot;EMI, Loan Amount, a...)">runScenario("TC-FN-06 Change Loan Tenure from years to months and verify scale adjustment", "EMI, Loan Amount, a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FN-07 Navigate to Loan Tenure Calculator tab and verify UI elements&quot;, &quot;EMI, Loan Amount, and Loa...)">runScenario("TC-FN-07 Navigate to Loan Tenure Calculator tab and verify UI elements", "EMI, Loan Amount, and Loa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FN-04 Change Loan Tenure from years to months and verify scale adjustment&quot;, &quot;EMI, Loan Amount, a...)">runScenario("TC-FN-04 Change Loan Tenure from years to months and verify scale adjustment", "EMI, Loan Amount, a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FL-01 Validate EMI text boxes with valid inputs&quot;, &quot;EMI, Loan Amount, and Loan Tenure Calculator ...)">runScenario("TC-FL-01 Validate EMI text boxes with valid inputs", "EMI, Loan Amount, and Loan Tenure Calculator ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FL-04 Validate that all input fields reset when left blank&quot;, &quot;EMI, Loan Amount, and Loan Tenure ...)">runScenario("TC-FL-04 Validate that all input fields reset when left blank", "EMI, Loan Amount, and Loan Tenure ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FL-06 Validate that Loan Tenure supports both year and month formats&quot;, &quot;EMI, Loan Amount, and Lo...)">runScenario("TC-FL-06 Validate that Loan Tenure supports both year and month formats", "EMI, Loan Amount, and Lo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FL-07 Validate that EMI result updates dynamically on input change&quot;, &quot;EMI, Loan Amount, and Loan...)">runScenario("TC-FL-07 Validate that EMI result updates dynamically on input change", "EMI, Loan Amount, and Loan...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Extract year-wise amortization data and export to Excel&quot;, &quot;Home Loan EMI calculator&quot;)">runScenario("Extract year-wise amortization data and export to Excel", "Home Loan EMI calculator")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FL-07 Validate that EMI result updates dynamically on input change&quot;, &quot;EMI, Loan Amount, and Loan...)">runScenario("TC-FL-07 Validate that EMI result updates dynamically on input change", "EMI, Loan Amount, and Loan...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FN-06 Change Loan Tenure from years to months and verify scale adjustment&quot;, &quot;EMI, Loan Amount, a...)">runScenario("TC-FN-06 Change Loan Tenure from years to months and verify scale adjustment", "EMI, Loan Amount, a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FL-05 Validate that decimal values are accepted in the Interest Rate field&quot;, &quot;EMI, Loan Amount, ...)">runScenario("TC-FL-05 Validate that decimal values are accepted in the Interest Rate field", "EMI, Loan Amount, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FL-04 Validate that all input fields reset when left blank&quot;, &quot;EMI, Loan Amount, and Loan Tenure ...)">runScenario("TC-FL-04 Validate that all input fields reset when left blank", "EMI, Loan Amount, and Loan Tenure ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FL-03 Validate that all input fields reset on negative input&quot;, &quot;EMI, Loan Amount, and Loan Tenur...)">runScenario("TC-FL-03 Validate that all input fields reset on negative input", "EMI, Loan Amount, and Loan Tenur...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FN-05 Navigate to Loan Amount Calculator tab and verify UI elements&quot;, &quot;EMI, Loan Amount, and Loa...)">runScenario("TC-FN-05 Navigate to Loan Amount Calculator tab and verify UI elements", "EMI, Loan Amount, and Loa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FL-02 Validate that all input fields reset on non-numeric input&quot;, &quot;EMI, Loan Amount, and Loan Te...)">runScenario("TC-FL-02 Validate that all input fields reset on non-numeric input", "EMI, Loan Amount, and Loan Te...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FL-06 Validate that Loan Tenure supports both year and month formats&quot;, &quot;EMI, Loan Amount, and Lo...)">runScenario("TC-FL-06 Validate that Loan Tenure supports both year and month formats", "EMI, Loan Amount, and Lo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FN-03 Navigate to EMI Calculator tab and verify UI elements&quot;, &quot;EMI, Loan Amount, and Loan Tenure...)">runScenario("TC-FN-03 Navigate to EMI Calculator tab and verify UI elements", "EMI, Loan Amount, and Loan Tenure...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Calculate Car EMI for 1 year loan and verify first month breakdown&quot;, &quot;Car EMI calculation&quot;)">runScenario("Calculate Car EMI for 1 year loan and verify first month breakdown", "Car EMI calculation")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FL-01 Validate EMI text boxes with valid inputs&quot;, &quot;EMI, Loan Amount, and Loan Tenure Calculator ...)">runScenario("TC-FL-01 Validate EMI text boxes with valid inputs", "EMI, Loan Amount, and Loan Tenure Calculator ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FN-07 Navigate to Loan Tenure Calculator tab and verify UI elements&quot;, &quot;EMI, Loan Amount, and Loa...)">runScenario("TC-FN-07 Navigate to Loan Tenure Calculator tab and verify UI elements", "EMI, Loan Amount, and Loa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cucumber_Parallel_Browser_Suite" title="com.emi.runners.CucumberTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;TC-FN-04 Change Loan Tenure from years to months and verify scale adjustment&quot;, &quot;EMI, Loan Amount, a...)">runScenario("TC-FN-04 Change Loan Tenure from years to months and verify scale adjustment", "EMI, Loan Amount, a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Cucumber_Parallel_Browser_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Cucumber_Parallel_Browser_Suite" class="panel Cucumber_Parallel_Browser_Suite">
+          <div class="suite-Cucumber_Parallel_Browser_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.emi.runners.CucumberTestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FL-02 Validate that all input fields reset on non-numeric input&quot;, &quot;EMI, Loan Amount, and Loan Te...)">
+                  </a> <!-- runScenario("TC-FL-02 Validate that all input fields reset on non-numeric input", "EMI, Loan Amount, and Loan Te...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FL-02 Validate that all input fields reset on non-numeric input","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FL-05 Validate that decimal values are accepted in the Interest Rate field&quot;, &quot;EMI, Loan Amount, ...)">
+                  </a> <!-- runScenario("TC-FL-05 Validate that decimal values are accepted in the Interest Rate field", "EMI, Loan Amount, ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FL-05 Validate that decimal values are accepted in the Interest Rate field","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Calculate Car EMI for 1 year loan and verify first month breakdown&quot;, &quot;Car EMI calculation&quot;)">
+                  </a> <!-- runScenario("Calculate Car EMI for 1 year loan and verify first month breakdown", "Car EMI calculation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Calculate Car EMI for 1 year loan and verify first month breakdown","Car EMI calculation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FL-03 Validate that all input fields reset on negative input&quot;, &quot;EMI, Loan Amount, and Loan Tenur...)">
+                  </a> <!-- runScenario("TC-FL-03 Validate that all input fields reset on negative input", "EMI, Loan Amount, and Loan Tenur...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FL-03 Validate that all input fields reset on negative input","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FN-05 Navigate to Loan Amount Calculator tab and verify UI elements&quot;, &quot;EMI, Loan Amount, and Loa...)">
+                  </a> <!-- runScenario("TC-FN-05 Navigate to Loan Amount Calculator tab and verify UI elements", "EMI, Loan Amount, and Loa...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FN-05 Navigate to Loan Amount Calculator tab and verify UI elements","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FN-03 Navigate to EMI Calculator tab and verify UI elements&quot;, &quot;EMI, Loan Amount, and Loan Tenure...)">
+                  </a> <!-- runScenario("TC-FN-03 Navigate to EMI Calculator tab and verify UI elements", "EMI, Loan Amount, and Loan Tenure...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FN-03 Navigate to EMI Calculator tab and verify UI elements","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Extract year-wise amortization data and export to Excel&quot;, &quot;Home Loan EMI calculator&quot;)">
+                  </a> <!-- runScenario("Extract year-wise amortization data and export to Excel", "Home Loan EMI calculator") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Extract year-wise amortization data and export to Excel","Home Loan EMI calculator")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FN-06 Change Loan Tenure from years to months and verify scale adjustment&quot;, &quot;EMI, Loan Amount, a...)">
+                  </a> <!-- runScenario("TC-FN-06 Change Loan Tenure from years to months and verify scale adjustment", "EMI, Loan Amount, a...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FN-06 Change Loan Tenure from years to months and verify scale adjustment","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FN-07 Navigate to Loan Tenure Calculator tab and verify UI elements&quot;, &quot;EMI, Loan Amount, and Loa...)">
+                  </a> <!-- runScenario("TC-FN-07 Navigate to Loan Tenure Calculator tab and verify UI elements", "EMI, Loan Amount, and Loa...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FN-07 Navigate to Loan Tenure Calculator tab and verify UI elements","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FN-04 Change Loan Tenure from years to months and verify scale adjustment&quot;, &quot;EMI, Loan Amount, a...)">
+                  </a> <!-- runScenario("TC-FN-04 Change Loan Tenure from years to months and verify scale adjustment", "EMI, Loan Amount, a...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FN-04 Change Loan Tenure from years to months and verify scale adjustment","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FL-01 Validate EMI text boxes with valid inputs&quot;, &quot;EMI, Loan Amount, and Loan Tenure Calculator ...)">
+                  </a> <!-- runScenario("TC-FL-01 Validate EMI text boxes with valid inputs", "EMI, Loan Amount, and Loan Tenure Calculator ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FL-01 Validate EMI text boxes with valid inputs","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FL-04 Validate that all input fields reset when left blank&quot;, &quot;EMI, Loan Amount, and Loan Tenure ...)">
+                  </a> <!-- runScenario("TC-FL-04 Validate that all input fields reset when left blank", "EMI, Loan Amount, and Loan Tenure ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FL-04 Validate that all input fields reset when left blank","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FL-06 Validate that Loan Tenure supports both year and month formats&quot;, &quot;EMI, Loan Amount, and Lo...)">
+                  </a> <!-- runScenario("TC-FL-06 Validate that Loan Tenure supports both year and month formats", "EMI, Loan Amount, and Lo...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FL-06 Validate that Loan Tenure supports both year and month formats","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FL-07 Validate that EMI result updates dynamically on input change&quot;, &quot;EMI, Loan Amount, and Loan...)">
+                  </a> <!-- runScenario("TC-FL-07 Validate that EMI result updates dynamically on input change", "EMI, Loan Amount, and Loan...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FL-07 Validate that EMI result updates dynamically on input change","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Extract year-wise amortization data and export to Excel&quot;, &quot;Home Loan EMI calculator&quot;)">
+                  </a> <!-- runScenario("Extract year-wise amortization data and export to Excel", "Home Loan EMI calculator") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Extract year-wise amortization data and export to Excel","Home Loan EMI calculator")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FL-07 Validate that EMI result updates dynamically on input change&quot;, &quot;EMI, Loan Amount, and Loan...)">
+                  </a> <!-- runScenario("TC-FL-07 Validate that EMI result updates dynamically on input change", "EMI, Loan Amount, and Loan...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FL-07 Validate that EMI result updates dynamically on input change","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FN-06 Change Loan Tenure from years to months and verify scale adjustment&quot;, &quot;EMI, Loan Amount, a...)">
+                  </a> <!-- runScenario("TC-FN-06 Change Loan Tenure from years to months and verify scale adjustment", "EMI, Loan Amount, a...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FN-06 Change Loan Tenure from years to months and verify scale adjustment","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FL-05 Validate that decimal values are accepted in the Interest Rate field&quot;, &quot;EMI, Loan Amount, ...)">
+                  </a> <!-- runScenario("TC-FL-05 Validate that decimal values are accepted in the Interest Rate field", "EMI, Loan Amount, ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FL-05 Validate that decimal values are accepted in the Interest Rate field","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FL-04 Validate that all input fields reset when left blank&quot;, &quot;EMI, Loan Amount, and Loan Tenure ...)">
+                  </a> <!-- runScenario("TC-FL-04 Validate that all input fields reset when left blank", "EMI, Loan Amount, and Loan Tenure ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FL-04 Validate that all input fields reset when left blank","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FL-03 Validate that all input fields reset on negative input&quot;, &quot;EMI, Loan Amount, and Loan Tenur...)">
+                  </a> <!-- runScenario("TC-FL-03 Validate that all input fields reset on negative input", "EMI, Loan Amount, and Loan Tenur...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FL-03 Validate that all input fields reset on negative input","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FN-05 Navigate to Loan Amount Calculator tab and verify UI elements&quot;, &quot;EMI, Loan Amount, and Loa...)">
+                  </a> <!-- runScenario("TC-FN-05 Navigate to Loan Amount Calculator tab and verify UI elements", "EMI, Loan Amount, and Loa...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FN-05 Navigate to Loan Amount Calculator tab and verify UI elements","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FL-02 Validate that all input fields reset on non-numeric input&quot;, &quot;EMI, Loan Amount, and Loan Te...)">
+                  </a> <!-- runScenario("TC-FL-02 Validate that all input fields reset on non-numeric input", "EMI, Loan Amount, and Loan Te...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FL-02 Validate that all input fields reset on non-numeric input","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FL-06 Validate that Loan Tenure supports both year and month formats&quot;, &quot;EMI, Loan Amount, and Lo...)">
+                  </a> <!-- runScenario("TC-FL-06 Validate that Loan Tenure supports both year and month formats", "EMI, Loan Amount, and Lo...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FL-06 Validate that Loan Tenure supports both year and month formats","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FN-03 Navigate to EMI Calculator tab and verify UI elements&quot;, &quot;EMI, Loan Amount, and Loan Tenure...)">
+                  </a> <!-- runScenario("TC-FN-03 Navigate to EMI Calculator tab and verify UI elements", "EMI, Loan Amount, and Loan Tenure...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FN-03 Navigate to EMI Calculator tab and verify UI elements","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Calculate Car EMI for 1 year loan and verify first month breakdown&quot;, &quot;Car EMI calculation&quot;)">
+                  </a> <!-- runScenario("Calculate Car EMI for 1 year loan and verify first month breakdown", "Car EMI calculation") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Calculate Car EMI for 1 year loan and verify first month breakdown","Car EMI calculation")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FL-01 Validate EMI text boxes with valid inputs&quot;, &quot;EMI, Loan Amount, and Loan Tenure Calculator ...)">
+                  </a> <!-- runScenario("TC-FL-01 Validate EMI text boxes with valid inputs", "EMI, Loan Amount, and Loan Tenure Calculator ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FL-01 Validate EMI text boxes with valid inputs","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FN-07 Navigate to Loan Tenure Calculator tab and verify UI elements&quot;, &quot;EMI, Loan Amount, and Loa...)">
+                  </a> <!-- runScenario("TC-FN-07 Navigate to Loan Tenure Calculator tab and verify UI elements", "EMI, Loan Amount, and Loa...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FN-07 Navigate to Loan Tenure Calculator tab and verify UI elements","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;TC-FN-04 Change Loan Tenure from years to months and verify scale adjustment&quot;, &quot;EMI, Loan Amount, a...)">
+                  </a> <!-- runScenario("TC-FN-04 Change Loan Tenure from years to months and verify scale adjustment", "EMI, Loan Amount, a...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("TC-FN-04 Change Loan Tenure from years to months and verify scale adjustment","EMI, Loan Amount, and Loan Tenure Calculator Validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cucumber_Parallel_Browser_Suite-class-passed -->
+        </div> <!-- panel Cucumber_Parallel_Browser_Suite -->
+        <div panel-name="test-xml-Cucumber_Parallel_Browser_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2421305\eclipse-workspace\Emi\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Cucumber Parallel Browser Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Run Cucumber - Chrome&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.emi.runners.CucumberTestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Run Cucumber - Chrome --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Run Cucumber - Edge&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.emi.runners.CucumberTestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Run Cucumber - Edge --&gt;
+&lt;/suite&gt; &lt;!-- Cucumber Parallel Browser Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Cucumber_Parallel_Browser_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Cucumber Parallel Browser Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Run Cucumber - Chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Run Cucumber - Edge (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Cucumber_Parallel_Browser_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Cucumber Parallel Browser Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Cucumber_Parallel_Browser_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Cucumber Parallel Browser Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Cucumber_Parallel_Browser_Suite');
+function tableData_Cucumber_Parallel_Browser_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(0, 3, 21429);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(1, 3, 21149);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(2, 3, 19120);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(3, 3, 19061);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(4, 3, 18462);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(5, 3, 17637);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(6, 3, 17250);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(7, 3, 16709);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(8, 3, 16666);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(9, 3, 15953);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(10, 3, 15950);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(11, 3, 15342);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(12, 3, 14315);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(13, 3, 13785);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(14, 3, 13644);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(15, 3, 13627);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(16, 3, 13272);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(17, 3, 12899);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(18, 3, 12740);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(19, 3, 12686);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(20, 3, 12385);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(21, 3, 12230);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'runScenario')
+data.setCell(22, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(22, 3, 11924);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'runScenario')
+data.setCell(23, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(23, 3, 11781);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'runScenario')
+data.setCell(24, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(24, 3, 11770);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'runScenario')
+data.setCell(25, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(25, 3, 11673);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'runScenario')
+data.setCell(26, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(26, 3, 11331);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'runScenario')
+data.setCell(27, 2, 'com.emi.runners.CucumberTestRunner')
+data.setCell(27, 3, 9701);
+window.suiteTableData['Cucumber_Parallel_Browser_Suite']= { tableData: data, tableDiv: 'times-div-Cucumber_Parallel_Browser_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Cucumber_Parallel_Browser_Suite">
+              </div> <!-- times-div-Cucumber_Parallel_Browser_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Cucumber_Parallel_Browser_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Cucumber Parallel Browser Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Cucumber_Parallel_Browser_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Cucumber_Parallel_Browser_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.emi.runners.CucumberTestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@2617f816)</span>
+                <span class="method-start">74 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@676f0a60)</span>
+                <span class="method-start">74 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Calculate Car EMI for 1 year loan and verify first month breakdown", "Car EMI calculation")</span>
+                <span class="method-start">803 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Calculate Car EMI for 1 year loan and verify first month breakdown", "Car EMI calculation")</span>
+                <span class="method-start">803 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FN-03 Navigate to EMI Calculator tab and verify UI elements", "EMI, Loan Amount, and Loan Tenure...)</span>
+                <span class="method-start">18056 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FN-03 Navigate to EMI Calculator tab and verify UI elements", "EMI, Loan Amount, and Loan Tenure...)</span>
+                <span class="method-start">22233 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FN-04 Change Loan Tenure from years to months and verify scale adjustment", "EMI, Loan Amount, a...)</span>
+                <span class="method-start">37176 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FN-04 Change Loan Tenure from years to months and verify scale adjustment", "EMI, Loan Amount, a...)</span>
+                <span class="method-start">43384 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FN-05 Navigate to Loan Amount Calculator tab and verify UI elements", "EMI, Loan Amount, and Loa...)</span>
+                <span class="method-start">48960 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FN-05 Navigate to Loan Amount Calculator tab and verify UI elements", "EMI, Loan Amount, and Loa...)</span>
+                <span class="method-start">56125 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FN-06 Change Loan Tenure from years to months and verify scale adjustment", "EMI, Loan Amount, a...)</span>
+                <span class="method-start">64911 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FN-06 Change Loan Tenure from years to months and verify scale adjustment", "EMI, Loan Amount, a...)</span>
+                <span class="method-start">74588 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FN-07 Navigate to Loan Tenure Calculator tab and verify UI elements", "EMI, Loan Amount, and Loa...)</span>
+                <span class="method-start">76682 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FN-07 Navigate to Loan Tenure Calculator tab and verify UI elements", "EMI, Loan Amount, and Loa...)</span>
+                <span class="method-start">87276 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FL-01 Validate EMI text boxes with valid inputs", "EMI, Loan Amount, and Loan Tenure Calculator ...)</span>
+                <span class="method-start">95744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FL-01 Validate EMI text boxes with valid inputs", "EMI, Loan Amount, and Loan Tenure Calculator ...)</span>
+                <span class="method-start">104914 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FL-02 Validate that all input fields reset on non-numeric input", "EMI, Loan Amount, and Loan Te...)</span>
+                <span class="method-start">112412 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FL-02 Validate that all input fields reset on non-numeric input", "EMI, Loan Amount, and Loan Te...)</span>
+                <span class="method-start">121624 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FL-03 Validate that all input fields reset on negative input", "EMI, Loan Amount, and Loan Tenur...)</span>
+                <span class="method-start">123745 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FL-03 Validate that all input fields reset on negative input", "EMI, Loan Amount, and Loan Tenur...)</span>
+                <span class="method-start">135252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FL-04 Validate that all input fields reset when left blank", "EMI, Loan Amount, and Loan Tenure ...)</span>
+                <span class="method-start">135976 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FL-05 Validate that decimal values are accepted in the Interest Rate field", "EMI, Loan Amount, ...)</span>
+                <span class="method-start">148362 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FL-04 Validate that all input fields reset when left blank", "EMI, Loan Amount, and Loan Tenure ...)</span>
+                <span class="method-start">149038 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FL-06 Validate that Loan Tenure supports both year and month formats", "EMI, Loan Amount, and Lo...)</span>
+                <span class="method-start">158064 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FL-05 Validate that decimal values are accepted in the Interest Rate field", "EMI, Loan Amount, ...)</span>
+                <span class="method-start">163354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FL-07 Validate that EMI result updates dynamically on input change", "EMI, Loan Amount, and Loan...)</span>
+                <span class="method-start">169737 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FL-06 Validate that Loan Tenure supports both year and month formats", "EMI, Loan Amount, and Lo...)</span>
+                <span class="method-start">176254 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Extract year-wise amortization data and export to Excel", "Home Loan EMI calculator")</span>
+                <span class="method-start">185079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("TC-FL-07 Validate that EMI result updates dynamically on input change", "EMI, Loan Amount, and Loan...)</span>
+                <span class="method-start">189526 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">197006 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Extract year-wise amortization data and export to Excel", "Home Loan EMI calculator")</span>
+                <span class="method-start">205480 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">219125 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
